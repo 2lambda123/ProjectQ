@@ -43,7 +43,7 @@ repos:
       - id: remove-tabs
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.18.0
+    rev: v3.19.0
     hooks:
       - id: pyupgrade
         args: [--py37-plus, --keep-mock]
@@ -63,7 +63,7 @@ repos:
         stages: [manual]
 
   - repo: https://github.com/asottile/blacken-docs
-    rev: 1.19.0
+    rev: 1.19.1
     hooks:
       - id: blacken-docs
         args: [-S, -l, '120']
